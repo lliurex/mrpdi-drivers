@@ -1,0 +1,3 @@
+src/drivers/TabletDriver.so	/usr/lib/mrpdi/
+src/drivers/WhiteBoardDriver.so	/usr/lib/mrpdi/
+src/drivers/PrometheanDriver.so	/usr/lib/mrpdi/

@@ -1,0 +1,85 @@
+mrpdi-drivers (2.7) xenial; urgency=medium
+
+  * Bionic release
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Thu, 04 Oct 2018 09:44:10 +0200
+
+mrpdi-drivers (2.2.7) xenial; urgency=medium
+
+  * Copy trusty code
+
+ -- M.Angel Juan <m.angel.juan@gmail.com>  Mon, 08 Feb 2016 19:11:08 +0100
+
+mrpdi-drivers (2.2.4) trusty; urgency=high
+
+  * Trying to fix
+
+ -- Angel Berlanas Vicente <angel.berlanas@gmail.com>  Wed, 03 Jun 2015 13:48:40 +0200
+
+mrpdi-drivers (2.2.2) precise; urgency=low
+
+  * Some noise improvements for ebeam
+  * Both IQBoard and Multiclass have a parameter for serial port (ttyUSB) number
+
+ -- Enrique Medina Gremaldos <lliurex_devel4@edu.gva.es>  Tue, 19 Nov 2013 09:10:50 +0100
+
+mrpdi-drivers (2.2.1) precise; urgency=high
+
+  * Dummy upgrade
+
+ -- Enrique Medina Gremaldos <lliurex_devel4@edu.gva.es>  Tue, 17 Sep 2013 15:01:08 +0200
+
+mrpdi-drivers (2.2) precise; urgency=low
+
+  * Matched mrpdi core version
+
+ -- Enrique Medina Gremaldos <lliurex_devel4@edu.gva.es>  Tue, 17 Sep 2013 12:11:36 +0200
+
+mrpdi-drivers (2.1.5) precise; urgency=low
+
+  * Upgraded rules to new format
+
+ -- Enrique Medina Gremaldos <lliurex_devel4@edu.gva.es>  Fri, 31 May 2013 13:18:22 +0200
+
+mrpdi-drivers (2.1.4) precise; urgency=low
+
+  * Removed lliurex deb helpers, as they are no longer used
+
+ -- Enrique Medina Gremaldos <lliurex_devel4@edu.gva.es>  Fri, 31 May 2013 08:54:38 +0200
+
+mrpdi-drivers (2.1.3) precise; urgency=low
+
+  * Added libusb as dep and build dep
+
+ -- Enrique Medina Gremaldos <lliurex_devel4@edu.gva.es>  Thu, 30 May 2013 11:39:31 +0200
+
+mrpdi-drivers (2.1.2) precise; urgency=low
+
+  * Added pkg-config as build dep
+
+ -- Enrique Medina Gremaldos <lliurex_devel4@edu.gva.es>  Thu, 30 May 2013 08:58:19 +0200
+
+mrpdi-drivers (2.1.1) precise; urgency=low
+
+  * Imported from leia and sync with current mrpdi dev
+
+ -- Enrique Medina Gremaldos <lliurex_devel4@edu.gva.es>  Fri, 24 May 2013 13:12:54 +0200
+
+mrpdi-drivers (2.1~alpha1) unstable; urgency=low
+
+  * Added initial release of multiclass driver
+  * As Iqboard and multiclass share the same id, iqboard driver has been dropped from main package and a conflict has been added between iqboard and multiclass drivers
+
+ -- Enrique Medina Gremaldos <lliurex_devel4@edu.gva.es>  Thu, 07 Feb 2013 09:12:36 +0100
+
+mrpdi-drivers (2.0~alpha2) unstable; urgency=low
+
+  * Dropped dvit from mainstream drivers
+
+ -- Enrique Medina Gremaldos <lliurex_devel4@edu.gva.es>  Mon, 14 Jan 2013 18:46:23 +0100
+
+mrpdi-drivers (2.0~alpha1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Enrique Medina Gremaldos <lliurex_devel4@edu.gva.es>  Wed, 21 Nov 2012 14:11:37 +0100

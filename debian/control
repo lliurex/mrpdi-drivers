@@ -1,0 +1,33 @@
+Source: mrpdi-drivers
+Section: kernel
+Priority: optional
+Maintainer: Equipo LliureX <lliurex@gva.es>
+Uploaders: M.Angel Juan <m.angel.juan@gmail.com>, Raul Rodrigo Segura <lliurex_devel3@edu.gva.es>, Hector Garcia Huerta <lliurex_devel1@edu.gva.es>, Daniel Duran Vecino <daduve@gmail.com>, Juanma Navarro <juanma1980@gmail.com>, Juan Ramon Pelegrina <juapesai@hotmail.com>, Enrique Medina Gremaldos <lliurex_devel4@edu.gva.es>
+Build-Depends: cdbs, debhelper (>= 7), mrpdi-dev (>=2.2), pkg-config, libusb-1.0-0-dev
+Standards-Version: 4.1.4
+Homepage: http://lliurex.net
+ 
+Package: mrpdi-drivers-main
+Architecture: any
+Depends: mrpdi-core (>=2.2), libusb-1.0-0
+Conflicts: mrpdi-driver-promethean, mrpdi-driver-tablets, mrpdi-driver-whiteboards
+Provides: mrpdi-driver-promethean, mrpdi-driver-tablets, mrpdi-driver-whiteboards
+Replaces: mrpdi-driver-promethean, mrpdi-driver-tablets, mrpdi-driver-whiteboards
+Description: various mrpdi device drivers
+ Mainstream drivers kit enabling support for miscelanea of input devices. Go to the wiki for a complete list of supported devices.
+
+Package: mrpdi-drivers-iqboard
+Architecture: any
+Depends: mrpdi-core (>=2.1.1)
+Conflicts: mrpdi-driver-multiclass
+Description: iqboard mrpdi driver
+ Support for basic resistive iqboard device
+ 
+Package: mrpdi-drivers-multiclass
+Architecture: any
+Depends: mrpdi-core (>=2.1.1)
+Conflicts: mrpdi-driver-iqboard
+Description: multiclass mrpdi driver
+ Support for basic resistive multiclass device
+
+
