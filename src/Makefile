@@ -6,7 +6,7 @@ LIBUSB_LINK=`pkg-config libusb-1.0 --libs`
 PTHREAD_LINK=-lpthread
 LIBUSB_COMPILE=`pkg-config libusb-1.0 --cflags`
 
-COMPILER_FLAGS=-O3 -march=native -I ../include/
+COMPILER_FLAGS=-O3 -I ../include/
 
 
 all: drivers tablet board promethean iqboard multiclass
