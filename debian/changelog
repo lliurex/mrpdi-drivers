@@ -1,4 +1,4 @@
-mrpdi-drivers (2.7.2) bionic; urgency=medium
+mrpdi-drivers (2.7.2) xenial; urgency=medium
 
   * Master tag: 6a7376c3d63cfc5345c850ad9fa41b7df8bc0023
   * Removed march=native flag
