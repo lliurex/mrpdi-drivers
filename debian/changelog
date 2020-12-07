@@ -1,3 +1,10 @@
+mrpdi-drivers (2.7.2) bionic; urgency=medium
+
+  * Master tag: 6a7376c3d63cfc5345c850ad9fa41b7df8bc0023
+  * Removed march=native flag
+
+ -- Enrique Medina Gremaldos <quiqueiii@gmail.com>  Mon, 07 Dec 2020 13:14:10 +0100
+
 mrpdi-drivers (2.7) bionic; urgency=medium
 
   * Bionic release
